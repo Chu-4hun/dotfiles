@@ -9,7 +9,7 @@ Ensure you have the following installed on your system
 ### Git & Stow
 
 ```
-apt-get install git stow
+sudo apt-get install -y git stow
 ```
 
 
