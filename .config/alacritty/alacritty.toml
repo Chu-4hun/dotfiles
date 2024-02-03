@@ -1,0 +1,62 @@
+[shell]
+program = "/bin/fish"
+
+[window]
+opacity = 0.9
+
+[env]
+TERM = "xterm-256color"
+
+[font.normal]
+family = "JetBrains Mono NL Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+#https://github.com/projekt0n/github-theme-contrib/blob/main/themes/alacritty/github_dark_dimmed.yml
+[colors.primary]
+background = "#22272e"
+foreground = "#adbac7"
+
+[colors.cursor]
+text = "#22272e"
+cursor = "#adbac7"
+
+[colors.normal]
+black = "#545d68"
+red = "#f47067"
+green = "#57ab5a"
+yellow = "#c69026"
+blue = "#539bf5"
+magenta = "#b083f0"
+cyan = "#39c5cf"
+white = "#909dab"
+
+[colors.bright]
+black = "#636e7b"
+red = "#ff938a"
+green = "#6bc46d"
+yellow = "#daaa3f"
+blue = "#6cb6ff"
+magenta = "#b083f0"
+cyan = "#39c5cf"
+white = "#909dab"
+
+[mouse]
+bindings = [
+{ mouse = "Right", mods = "Control", action = "Paste" },
+]
+
+
