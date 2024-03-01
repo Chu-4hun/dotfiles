@@ -40,4 +40,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/run/user/1000/fnm_multishells/4240_1693768510691/bin\x1e/home/dan/flutter/bin/
+SETUVAR fish_user_paths:/run/user/1000/fnm_multishells/4240_1693768510691/bin\x1e/home/dan/flutter/bin/\x1e/home/dan/go/bin
