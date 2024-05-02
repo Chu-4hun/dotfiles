@@ -3,4 +3,12 @@ if status is-interactive
     set PATH $HOME/.cargo/bin $PATH
 end
 
-alias upd="sudo dnf update -y && flatpak update -y"
+
+if which apt-get >/dev/null
+	alias upd="sudo apt-get update && sudo apt-get upgrade -y && flatpak update -y"
+end
+
+if which dnf >/dev/null
+	alias upd="sudo dnf update -y && flatpak update -y"
+end
+
