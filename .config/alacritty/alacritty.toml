@@ -1,7 +1,9 @@
 import = [
     "~/.config/alacritty/themes/citylights.toml"
 ]
-
+[selection]
+save_to_clipboard = true
+  
 [shell]
 program = "/bin/fish"
 
