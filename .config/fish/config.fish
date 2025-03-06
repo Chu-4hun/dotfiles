@@ -4,11 +4,14 @@ if status is-interactive
 end
 
 
-if which apt-get >/dev/null
-	alias upd="sudo apt-get update && sudo apt-get upgrade -y && flatpak update -y"
+if command -v apt-get >/dev/null
+    alias upd="sudo apt-get update && sudo apt-get upgrade -y && flatpak update -y"
 end
 
-if which dnf >/dev/null
-	alias upd="sudo dnf update -y && flatpak update -y"
+if command -v dnf >/dev/null
+    alias upd="sudo dnf update -y && flatpak update -y"
 end
 
+if command -v pacman >/dev/null
+    alias upd="sudo pacman -Syu --noconfirm && yay -Syu --noconfirm && flatpak update -y"
+end
