@@ -8,4 +8,5 @@ map C edit-config
 set drawbox
 map D delete
 map <enter> open
-
+map . set hidden!
+map <esc> quit
