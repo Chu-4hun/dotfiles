@@ -1,11 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-<<<<<<< HEAD
 SETUVAR --export SHELL:/bin/fish
-SETUVAR __fish_initialized:3100
-=======
 SETUVAR __fish_initialized:3800
->>>>>>> aeeb68a (update: lf added)
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:blue

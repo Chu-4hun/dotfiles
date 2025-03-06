@@ -87,11 +87,7 @@ skin=modarin256-defbg
 
 [Layout]
 output_lines=0
-<<<<<<< Updated upstream
-left_panel_size=84
-=======
 left_panel_size=35
->>>>>>> Stashed changes
 top_panel_size=0
 message_visible=true
 keybar_visible=true
