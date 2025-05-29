@@ -13,5 +13,12 @@ if command -v dnf >/dev/null
 end
 
 if command -v pacman >/dev/null
-    alias upd="sudo pacman -Syu --noconfirm && yay -Syu --noconfirm && flatpak update -y"
+    function upd
+        sudo pacman -Syu --noconfirm
+        yay -Syu --noconfirm
+        flatpak update -y
+        echo "----CACHE CLEARING-------"
+        sudo paccache -r
+        sudo pacman -Qtdq
+    end
 end
