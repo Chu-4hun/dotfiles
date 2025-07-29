@@ -3,6 +3,7 @@ if status is-interactive
     set PATH $HOME/.cargo/bin $PATH
 end
 
+set fish_greeting
 
 if command -v apt-get >/dev/null
     alias upd="sudo apt-get update && sudo apt-get upgrade -y && flatpak update -y"

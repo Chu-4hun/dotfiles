@@ -5,7 +5,7 @@ cmd edit-config ${{
 
 map C edit-config
 
-set drawbox
+#set drawbox
 map d delete
 map <enter> open
 map . set hidden!
