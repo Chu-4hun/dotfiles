@@ -18,12 +18,12 @@ sudo apt-get install -y git stow
 First, check out the dotfiles repo in your $HOME directory using git
 
 ```
-$ git clone https://github.com/Chu-4hun/dotfiles.git
-$ cd dotfiles
+git clone https://github.com/Chu-4hun/dotfiles.git
+cd dotfiles
 ```
 
 then use GNU stow to create symlinks
 
 ```
-$ stow .
+stow .
 ```
